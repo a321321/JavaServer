@@ -4,8 +4,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class ShoutingMTServer {
-	public static final int PORT = 7789;
-	private static final int maxnrofConnections=7;
+	public static final int PORT = 7789; //poort die verbindt met de server
+	private static final int maxnrofConnections=7; //maximaal aantak connecties
 	public static shoutingMTserver.TelSemafoor mijnSemafoor = new shoutingMTserver.TelSemafoor(maxnrofConnections);
 	
 	
